@@ -1,67 +1,68 @@
-Strategic CRM & Marketing Decision Support System
-Advanced Customer Analytics via RFM Modeling & 3D Visualization
+# Strategic CRM & Marketing Decision Support System
+### *Advanced Customer Analytics via RFM Modeling & 3D Visualization*
 
-1. Project Overview
-This project is a data-driven decision-making tool designed for Marketing Specialists and Sales Executives. It transforms raw transactional data (sourced from Kaggle) into a high-level CRM strategy. By utilizing the RFM (Recency, Frequency, Monetary) framework, the system provides actionable insights into customer behavior, allowing leads to optimize retention efforts and marketing spend.
+---
 
+## 1. Project Overview
+This project is a **professional data-driven decision-making tool** specifically designed for **Marketing Specialists** and **Sales Executives**. 
 
-2. Key Features
-Automated CRM Insight Engine: Dynamically generates an executive summary focusing on high-value assets and churn risks.
+By transforming raw transactional data (sourced from **Kaggle**) into a high-level CRM strategy, the system bridges the gap between raw data and business action. Utilizing the **RFM (Recency, Frequency, Monetary)** framework, it provides deep insights into customer behavior, allowing leadership to optimize retention efforts and maximize marketing ROI.
 
-Behavioral Segmentation: Classifies customers into four strategic categories: Champions, At-Risk VIPs, Potential New, and Regular Customers.
+---
 
-Interactive 3D Asset Map: A multidimensional visualization that allows sales teams to "see" their customer database in a 3D space.
+## 2. Key Features
+* **Automated Insight Engine**: Dynamically generates a textual executive summary focusing on high-value assets and immediate churn threats.
+* **Behavioral Segmentation**: Automatically classifies the database into four actionable categories: 
+    * `Champions` (High-value, High-loyalty)
+    * `At-Risk VIPs` (High-value, but drifting away)
+    * `Potential New` (New joiners with growth potential)
+    * `Regular Customers` (The baseline population)
+* **Interactive 3D Asset Map**: A multidimensional radar visualization that allows sales teams to explore their customer base in a 3D digital space.
+* **ROI Benchmarking**: Calculates the **average historical value** of warning-tier customers to help managers set scientific budget thresholds for reactivation.
 
-ROI Benchmarking: Calculates the average historical value of warning-tier customers to set maximum retention budget thresholds.
+---
 
+## 3. Technology Stack
+This project is built within the **Anaconda** distribution environment:
+* **Language**: `Python 3.x`
+* **Core Libraries**:
+    * `Pandas` & `NumPy`: For heavy-duty data cleaning and RFM modeling.
+    * `Plotly`: For high-end interactive 3D and 2D visualization.
+    * `IPython`: For rendering dynamic business narratives.
+    * `Datetime`: For temporal churn analysis.
 
-3. Technology Stack & Dependencies
-This project is developed using the Anaconda distribution and requires the following Python libraries:
+---
 
-Pandas & NumPy: For data cleaning and mathematical modeling.
+## 4. Execution Guide
+1.  **Prepare Data**: Download a transactional dataset from Kaggle.
+2.  **File Setup**: Rename the file to **`data.csv`** and place it in the project root directory.
+3.  **Environment**: Open your **Anaconda Prompt** and ensure `plotly` and `pandas` are installed:
+    ```bash
+    pip install pandas plotly
+    ```
+4.  **Run**: Launch **Jupyter Notebook**, open `CRM-Sales-Decision-Suite.ipynb`, and select **"Run All Cells"**.
 
-Plotly: For interactive 3D and 2D data visualization.
+---
 
-IPython: For rendering dynamic Markdown reports.
+## 5. Expected Strategic Outputs
+The system outputs four distinct decision-support modules:
+* **[I] Executive Briefing**: A Markdown report summarizing total asset value and risk metrics.
+* **[II] Revenue Distribution**: A pie chart identifying core revenue drivers.
+* **[III] 3D Customer Radar**: A tactical tool for account-level review and gap analysis.
+* **[IV] Risk-Tier ROI Chart**: A benchmark for determining marketing intervention costs.
 
-Datetime: For temporal analysis.
+---
 
+## 6. Business Impact
+This system empowers **Sales Operations** to answer three critical questions:
+1.  **"Where to spend?"** → Target segments with the highest revenue contribution.
+2.  **"Whom to save?"** → Intervene with high-value VIPs in the "Warning" zone.
+3.  **"How to grow?"** → Implement automated triggers for "Potential New" customers to break frequency barriers.
 
-4. How to Use
-Data Preparation: Download your transactional dataset from Kaggle.
+---
 
-File Naming: Place the dataset in the project root directory and rename it to data.csv.
+**Author:** Xiaoxi Du/XJTLU IBSS Accounting/2472054
 
-Environment Setup: Open your Anaconda Navigator or Prompt and ensure plotly and pandas are installed.
-
-Execution: Open CRM-Sales-Decision-Suite.ipynb and select "Run All Cells" from the menu.
-
-
-5. Expected Results & Outputs
-Executive Briefing: A textual report summarizing total asset value and current churn threats.
-
-Revenue Contribution Chart: A pie chart identifying which segments drive the majority of sales.
-
-3D Customer Radar: An interactive dark-themed plot for tactical account review.
-
-Lifecycle Bar Chart: A risk-tier analysis providing benchmarks for marketing intervention ROI.
-
-
-6. Strategic Value for Sales & CRM
-The primary goal of this tool is to provide Sales Operations with a clear roadmap:
-
-Where to spend? Target segments with the highest revenue contribution.
-
-Whom to save? Immediately identify high-value VIPs in the "Warning" zone.
-
-How to grow? Implement triggers for "Potential New" customers to increase purchase frequency.
-
-
-7. Data Source
-The raw data used for testing this pipeline is sourced from Kaggle (Public Datasets).
-
-Author: Xiaoxi Du/XJTLU IBSS Accounting/2472054
-
-Date: April 2026
-
-Tools: Anaconda / Jupyter Notebook / Python 3.x
+**Date:** April 2026  
+**Status:** Final Submission / Functional Portfolio  
+**Development Environment:** Anaconda Distribution
